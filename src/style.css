@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#taiji{
+    position: fixed;
+}
+
+
+@media (max-width: 500px) {
+    #first{
+        height: 50vh;
+        overflow: auto;
+    }
+    #taiji{
+        position: relative;
+        height: 50vh;
+        left: 0;
+        top: 0;
+    }
+
+}
